@@ -1,9 +1,12 @@
-# wait-for-it
+# wait-for-it (iFactor fork)
 
 `wait-for-it.sh` is a pure bash script that will wait on the availability of a
 host and TCP port.  It is useful for synchronizing the spin-up of
 interdependent services, such as linked docker containers.  Since it is a pure
 bash script, it does not have any external dependencies.
+
+## iFactor fork
+This is a fork of the [original script](https://github.com/vishnubob/wait-for-it), vishnubob/wait-for-it. We are keeping a local fork to insulate us from any upstream changes.
 
 ## Usage
 
